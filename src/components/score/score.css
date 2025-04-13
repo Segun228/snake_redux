@@ -4,6 +4,11 @@
     text-align: center;
     font-size: calc(2*var(--index));
     margin-top: 5vh;
+    margin-bottom: -1vh;
+}
+
+.score-caption{
+    font-size: calc(0.7*var(--index));
 }
 
 .score__title{
@@ -11,3 +16,28 @@
     font-size: calc(2*var(--index));
     margin-left: 0.5vw;
 }
+
+.score-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .scroe__wrapper{
+        font-family: Raleway, serif;
+        color: white;
+        text-align: center;
+        font-size: calc(4*var(--index));
+        margin-top: 5vh;
+    }
+    
+    .score__title{
+        font-family: Roboto, serif;
+        font-size: calc(4*var(--index));
+        margin-left: 0.5vw;
+    }
+    .score-caption{
+        font-size: calc(1.7*var(--index));
+    }
+}  

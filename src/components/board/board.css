@@ -1,5 +1,5 @@
 .board__wrapper{
-    margin-top: 2vh;
+    margin-top: 1vh;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }

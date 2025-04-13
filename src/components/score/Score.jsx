@@ -13,9 +13,10 @@ const Score = () => {
         }
         else{
             return(
-                <>
-                    Score: <span className="score__title">{currentScore}</span>
-                </>
+                <div className="score-container">
+                    <span className="score-caption">Score:</span> 
+                    <span className="score__title">{currentScore}</span>
+                </div>
             );
         }
 
