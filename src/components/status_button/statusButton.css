@@ -2,8 +2,9 @@
     background-color: #222;
     color: white;
     border: 1px solid white;
-    font-size: 5vh;
+    font-size: calc(var(--index)*2);
     padding: 2vh;
     border-radius: 1vh;
-    margin-top: 5vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2vh;
 }

@@ -1,6 +1,6 @@
 .square_unit{
-    width:7vh;
-    height:7vh;
+    width:calc(var(--index)*2.5);
+    height:calc(var(--index)*2.5);
     background-color: #17161e;
     border-radius: 1vh;
     border: 1px solid #1f1f1f;
@@ -9,24 +9,24 @@
 
 .snake{
     border-radius: 1vh;
-    width:7vh;
-    height:7vh;
+    width:calc(var(--index)*2.5);
+    height:calc(var(--index)*2.5);
     background-color: #099b04;
     border-color: #099b04;
 }
 
 .apple{
     border-radius: 1vh;
-    width:7vh;
-    height:7vh;
+    width:calc(var(--index)*2.5);
+    height:calc(var(--index)*2.5);
     background-color: #bd0404;
     border-color: #bd0404;
 }
 
 .snake-head-right{
     border-radius: 1vh;
-    width:7vh;
-    height:7vh;
+    width:calc(var(--index)*2.5);
+    height:calc(var(--index)*2.5);
     background-image: url("./../../assets/snake_head.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -36,8 +36,8 @@
 
 .snake-head-down{
     border-radius: 1vh;
-    width:7vh;
-    height:7vh;
+    width:calc(var(--index)*2.5);
+    height:calc(var(--index)*2.5);
     background-image: url("./../../assets/snake_head.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -46,8 +46,8 @@
 
 .snake-head-left{
     border-radius: 1vh;
-    width:7vh;
-    height:7vh;
+    width:calc(var(--index)*2.5);
+    height:calc(var(--index)*2.5);
     background-image: url("./../../assets/snake_up.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -56,8 +56,8 @@
 
 .snake-head-up{
     border-radius: 1vh;
-    width:7vh;
-    height:7vh;
+    width:calc(var(--index)*2.5);
+    height:calc(var(--index)*2.5);
     background-image: url("./../../assets/snake_up.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
