@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: ['snake_redux.onrender.com', 'localhost'], 
+    allowedHosts: ['snake-redux.onrender.com', 'localhost'], 
     watch: {
       usePolling: true,
     },
