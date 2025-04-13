@@ -3,8 +3,8 @@
 .control_button{
     background-color: #d0d0d0;
     color:black;
-    width: calc(3.5*var(--index));
-    height: calc(3.5*var(--index));
+    width: calc(4*var(--index));
+    height: calc(4*var(--index));
     margin: calc(0.2*var(--index));
     border-radius:calc(0.4*var(--index));
 }
@@ -16,7 +16,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    column-gap: calc(calc(3.5*var(--index)) + calc(0.2*var(--index)));
+    column-gap: calc(calc(4*var(--index)) + calc(0.2*var(--index)));
 }
 
 .control_button_up{
