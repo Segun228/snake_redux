@@ -109,8 +109,23 @@ const gameSlice = createSlice({
                 console.log("укусились")
             }
         },
+        newGame(state){
+            state.snake =[
+                {x: 0, y: 0},
+                {x: 1, y: 0}
+            ]
+            state.score = 0
+            state.snakeSize = 2
+            state.gameSpeed = 1
+            state.snakeHead = {x: 1, y: 0}
+            state.apple = {x: 5, y: 5}
+            state.status = "Start"
+            state.direction = 'd'
+            state.savedKey ='d'
+            
+        }
     }
 })
 
-export const {changeStatus, moveSnake, saveKey, setDirection, checkApple, checkGameOver} = gameSlice.actions;
+export const {changeStatus, moveSnake, saveKey, setDirection, checkApple, checkGameOver, newGame} = gameSlice.actions;
 export const gameReducer = gameSlice.reducer;

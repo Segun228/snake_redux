@@ -1,6 +1,6 @@
 import "./statusButton.css"
 import { useRef } from "react";
-import { moveSnake, setDirection, checkApple, checkGameOver, changeStatus } from "../../store/gameSlice";
+import { moveSnake, setDirection, checkApple, checkGameOver, changeStatus, newGame } from "../../store/gameSlice";
 import { useSelector, useDispatch } from 'react-redux'
 import { useEffect } from "react";
 
@@ -28,7 +28,8 @@ const StatusButton = () => {
 
     const clickHandler = () => {
         if(status==='Restart'){
-            window.location.reload()
+            dispatch(newGame());
+            stopTimer();
             return;
         }
         if(status !== "Pause"){startTimer()}
