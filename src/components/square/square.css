@@ -1,0 +1,64 @@
+.square_unit{
+    width:7vh;
+    height:7vh;
+    background-color: #17161e;
+    border-radius: 1vh;
+    border: 1px solid #383838;
+    margin: 0.1vh;
+}
+
+.snake{
+    border-radius: 1vh;
+    width:7vh;
+    height:7vh;
+    background-color: #099b04;
+    border-color: #099b04;
+}
+
+.apple{
+    border-radius: 1vh;
+    width:7vh;
+    height:7vh;
+    background-color: #bd0404;
+    border-color: #bd0404;
+}
+
+.snake-head-right{
+    border-radius: 1vh;
+    width:7vh;
+    height:7vh;
+    background-image: url("./../../assets/snake_head.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+.snake-head-down{
+    border-radius: 1vh;
+    width:7vh;
+    height:7vh;
+    background-image: url("./../../assets/snake_head.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: rotate(90deg);
+}
+
+.snake-head-left{
+    border-radius: 1vh;
+    width:7vh;
+    height:7vh;
+    background-image: url("./../../assets/snake_up.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: rotate(-90deg);
+}
+
+.snake-head-up{
+    border-radius: 1vh;
+    width:7vh;
+    height:7vh;
+    background-image: url("./../../assets/snake_up.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,13 @@
+.scroe__wrapper{
+    font-family: Raleway, serif;
+    color: white;
+    text-align: center;
+    font-size: calc(2*var(--index));
+    margin-top: 5vh;
+}
+
+.score__title{
+    font-family: Roboto, serif;
+    font-size: calc(2*var(--index));
+    margin-left: 0.5vw;
+}
