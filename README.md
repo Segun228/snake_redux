@@ -1,12 +1,15 @@
-# React + Vite
+# React-Redux Snake Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a classic Snake game implemented using React for the user interface and Redux for state management.  It's designed to be a fun and engaging demonstration of these technologies working together.
+This is my first Redux pet project btw.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+•   Classic Snake gameplay: Eat apples, grow longer, avoid walls and self-collision.
+•   Score tracking:  Displays the current score and high score.
+•   Increasing difficulty:  The snake moves faster as the score increases.
+•   Responsive design:  Playable on various screen sizes.
+•   Redux state management:  Centralized state for game logic and UI updates.
+•   Simple and clean UI:  Easy to understand and navigate.
+•   Pause functionality: Pause/resume the game pressing space.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
